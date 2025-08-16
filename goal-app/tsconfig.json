@@ -13,5 +13,5 @@
     "**/*.tsx",
     ".expo/types/**/*.ts",
     "expo-env.d.ts"
-, "components/GoalItem.jsx", "components/GoalInput.jsx", "app/_layout.jsx", "app/index.jsx"  ]
+, "components/GoalItem.jsx", "components/GoalInput.jsx", "app/_layout.jsx", "app/goals.jsx"  ]
 }

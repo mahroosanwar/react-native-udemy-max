@@ -11,6 +11,10 @@ const GoalItem = ({ courseGoal, onDelete, id }) => {
         onDelete.bind(this, id)
         // deleteGoalHandler
       }
+      android_ripple={{ color: "#270a4c" }}
+      style={({ pressed }) => {
+        return pressed && styles.pressedItem;
+      }}
     >
       <View style={styles.goalItem}>
         <Text style={styles.goalText}>{courseGoal}</Text>
@@ -25,6 +29,9 @@ const styles = StyleSheet.create({
     backgroundColor: "#5e0acc",
     borderRadius: 6,
     padding: 8,
+  },
+  pressedItem: {
+    opacity: 0.5,
   },
   goalText: {
     color: "white",
