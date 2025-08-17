@@ -1,15 +1,8 @@
-import { Text, View } from "react-native";
+import { StyleSheet } from "react-native";
+import StartGameScreen from "../screens/StartGameScreen";
 
 export default function Index() {
-  return (
-    <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
-    >
-      <Text>Edit app/index.tsx to edit this screen.</Text>
-    </View>
-  );
+  return <StartGameScreen />;
 }
+
+const styles = StyleSheet.create({});
