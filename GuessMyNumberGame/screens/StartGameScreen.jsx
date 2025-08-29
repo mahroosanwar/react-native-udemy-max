@@ -83,6 +83,8 @@ const styles = StyleSheet.create({
     flexDirection: "row",
   },
   buttonContainer: {
-    flex: 1,
+    flex: 0,
+    minWidth: 100,
+    marginHorizontal: 4,
   },
 });
